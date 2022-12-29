@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct DetailView4: View {
+	@Binding var path: NavigationPath
+	@Environment(\.dismiss) private var dismiss
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack {
+			Text("Detail View 4")
+			Button("Dismiss") {
+				path.removeLast()
+			}
+		}
     }
 }
 
-struct DetailView4_Previews: PreviewProvider {
-    static var previews: some View {
-        DetailView4()
-    }
-}
+// struct DetailView4_Previews: PreviewProvider {
+//     static var previews: some View {
+//         DetailView4()
+//     }
+// }

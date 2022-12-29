@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct RootView4: View {
+	@Binding var path: NavigationPath
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		Button("Detail View 4") {
+			path.append(0)
+		}
     }
 }
 
-struct RootView4_Previews: PreviewProvider {
-    static var previews: some View {
-        RootView4()
-    }
-}
+// struct RootView4_Previews: PreviewProvider {
+//     static var previews: some View {
+//         RootView4()
+//     }
+// }

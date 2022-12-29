@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct DetailView3: View {
+	@Environment(\.dismiss) private var dismiss
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack {
+			Text("Detail View 3")
+			Button("Dismiss") {
+				dismiss()
+			}
+		}
     }
 }
 

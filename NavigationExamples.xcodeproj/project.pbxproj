@@ -21,6 +21,12 @@
 		64F078A8295DC0E3009AEC45 /* DetailView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F078A7295DC0E3009AEC45 /* DetailView4.swift */; };
 		64F078AA295DC0E8009AEC45 /* RootView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F078A9295DC0E8009AEC45 /* RootView5.swift */; };
 		64F078AC295DC0F2009AEC45 /* DetailView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F078AB295DC0F2009AEC45 /* DetailView5.swift */; };
+		64F078AE295DC786009AEC45 /* RootContainerView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F078AD295DC786009AEC45 /* RootContainerView3.swift */; };
+		64F078B0295DC906009AEC45 /* RootContainerView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F078AF295DC906009AEC45 /* RootContainerView4.swift */; };
+		64F078B2295E0C07009AEC45 /* NavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F078B1295E0C07009AEC45 /* NavigationDestination.swift */; };
+		64F078B4295E0C54009AEC45 /* View+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F078B3295E0C54009AEC45 /* View+Navigation.swift */; };
+		64F078B6295E0E10009AEC45 /* RootContainerView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F078B5295E0E10009AEC45 /* RootContainerView5.swift */; };
+		64F078B8295E1062009AEC45 /* NavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F078B7295E1062009AEC45 /* NavigationState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +45,12 @@
 		64F078A7295DC0E3009AEC45 /* DetailView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView4.swift; sourceTree = "<group>"; };
 		64F078A9295DC0E8009AEC45 /* RootView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView5.swift; sourceTree = "<group>"; };
 		64F078AB295DC0F2009AEC45 /* DetailView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView5.swift; sourceTree = "<group>"; };
+		64F078AD295DC786009AEC45 /* RootContainerView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContainerView3.swift; sourceTree = "<group>"; };
+		64F078AF295DC906009AEC45 /* RootContainerView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContainerView4.swift; sourceTree = "<group>"; };
+		64F078B1295E0C07009AEC45 /* NavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestination.swift; sourceTree = "<group>"; };
+		64F078B3295E0C54009AEC45 /* View+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Navigation.swift"; sourceTree = "<group>"; };
+		64F078B5295E0E10009AEC45 /* RootContainerView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContainerView5.swift; sourceTree = "<group>"; };
+		64F078B7295E1062009AEC45 /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,7 @@
 			children = (
 				64F078A1295DC0D0009AEC45 /* RootView3.swift */,
 				64F078A3295DC0D6009AEC45 /* DetailView3.swift */,
+				64F078AD295DC786009AEC45 /* RootContainerView3.swift */,
 			);
 			path = "Level 3";
 			sourceTree = "<group>";
@@ -124,6 +137,7 @@
 			children = (
 				64F078A5295DC0DD009AEC45 /* RootView4.swift */,
 				64F078A7295DC0E3009AEC45 /* DetailView4.swift */,
+				64F078AF295DC906009AEC45 /* RootContainerView4.swift */,
 			);
 			path = "Level 4";
 			sourceTree = "<group>";
@@ -133,6 +147,10 @@
 			children = (
 				64F078A9295DC0E8009AEC45 /* RootView5.swift */,
 				64F078AB295DC0F2009AEC45 /* DetailView5.swift */,
+				64F078B5295E0E10009AEC45 /* RootContainerView5.swift */,
+				64F078B3295E0C54009AEC45 /* View+Navigation.swift */,
+				64F078B7295E1062009AEC45 /* NavigationState.swift */,
+				64F078B1295E0C07009AEC45 /* NavigationDestination.swift */,
 			);
 			path = "Level 5";
 			sourceTree = "<group>";
@@ -208,14 +226,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				64F0789A295DBFC8009AEC45 /* RootView1.swift in Sources */,
+				64F078B8295E1062009AEC45 /* NavigationState.swift in Sources */,
 				64F07889295DBDCB009AEC45 /* ContentView.swift in Sources */,
 				64F078A0295DC0C9009AEC45 /* DetailView2.swift in Sources */,
 				64F07887295DBDCB009AEC45 /* NavigationExamplesApp.swift in Sources */,
+				64F078B2295E0C07009AEC45 /* NavigationDestination.swift in Sources */,
 				64F078A6295DC0DD009AEC45 /* RootView4.swift in Sources */,
+				64F078B4295E0C54009AEC45 /* View+Navigation.swift in Sources */,
+				64F078B6295E0E10009AEC45 /* RootContainerView5.swift in Sources */,
 				64F0789E295DC0C0009AEC45 /* RootView2.swift in Sources */,
 				64F078A4295DC0D6009AEC45 /* DetailView3.swift in Sources */,
 				64F078A2295DC0D0009AEC45 /* RootView3.swift in Sources */,
 				64F078A8295DC0E3009AEC45 /* DetailView4.swift in Sources */,
+				64F078B0295DC906009AEC45 /* RootContainerView4.swift in Sources */,
+				64F078AE295DC786009AEC45 /* RootContainerView3.swift in Sources */,
 				64F0789C295DC0B5009AEC45 /* DetailView1.swift in Sources */,
 				64F078AA295DC0E8009AEC45 /* RootView5.swift in Sources */,
 				64F078AC295DC0F2009AEC45 /* DetailView5.swift in Sources */,

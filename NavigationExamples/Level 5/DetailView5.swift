@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct DetailView5: View {
+	@EnvironmentObject private var navigationState: NavigationState
+	let name: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack {
+			Text("\(name)")
+			Button("Dismiss") {
+				navigationState.dismiss()
+			}
+		}
     }
 }
 
 struct DetailView5_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView5()
+        DetailView5(name: "Detail View 5")
     }
 }

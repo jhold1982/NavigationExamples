@@ -9,7 +9,11 @@ import SwiftUI
 
 struct RootView2: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		NavigationStack {
+			NavigationLink("Detail View 2") {
+				DetailView2()
+			}
+		}
     }
 }
 

@@ -9,7 +9,12 @@ import SwiftUI
 
 struct RootView1: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		// NavigationView has been deprecated, best to use NavigationStack
+		NavigationView {
+			NavigationLink("Detail View 1") {
+				DetailView1()
+			}
+		}
     }
 }
 
