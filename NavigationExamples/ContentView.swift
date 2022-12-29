@@ -8,14 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State private var level1IsShowing = false
+	@State private var level2IsShowing = false
+	@State private var level3IsShowing = false
+	@State private var level4IsShowing = false
+	@State private var level5IsShowing = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+		NavigationView {
+			List {
+				Button("Level 1") { level1IsShowing.toggle() }
+				Button("Level 2") { level2IsShowing.toggle() }
+				Button("Level 3") { level3IsShowing.toggle() }
+				Button("Level 4") { level4IsShowing.toggle() }
+				Button("Level 5") { level5IsShowing.toggle() }
+			}
+			.sheet(isPresented: $level1IsShowing) {
+				RootView1()
+			}
+			.sheet(isPresented: $level2IsShowing) {
+				RootView2()
+			}
+			.sheet(isPresented: $level3IsShowing) {
+				RootView3()
+			}
+			.sheet(isPresented: $level4IsShowing) {
+				RootView4()
+			}
+			.sheet(isPresented: $level5IsShowing) {
+				RootView5()
+			}
+			.navigationTitle("Navigation Examples")
+		}
     }
 }
 
